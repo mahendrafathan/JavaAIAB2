@@ -1,0 +1,2 @@
+module javaAIAB2 {
+}
