@@ -26,7 +26,6 @@ public class Polymorphism {
 		System.out.println(kotak.tambah(1, 2));
 		System.out.println(kotak.tambah("dua"));
 	}
-	
 }
 
 //class induk
