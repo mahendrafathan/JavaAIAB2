@@ -24,6 +24,7 @@ public class Encapsulation {
 		
 		data.setGender(true);
 		System.out.println("gender : "+ data.getGender());
+		System.out.println("pass : "+ data.getPassword());
 	}
 }
 
@@ -60,7 +61,8 @@ class Data {
 	}
 	
 	public String getPassword() {
-		return this.password;
+		String tempPassword = this.password.replace("abc", "");
+		return tempPassword.replace("yxy", "");
 	}
 	
 	public void setPassword(String password) {
